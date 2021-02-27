@@ -39,8 +39,9 @@
 ![img4](/img/dt4.PNG)
 
 * Our accuracy is 74% which is good but we did apply Hyper Parameter tuning to check if we can increase model accuracy or not.
-* The parameters we tried to tune are 'criterion', 'max_depth', 'min_samples_leaf', 'min_samples_split', 'splitter'.
+* The parameters we tried to tune are 
+  * 'criterion', 'max_depth', 'min_samples_leaf', 'min_samples_split', 'splitter'.
 * On using the GridSearchCV for tuning, we got the best values of above mentioned parameters.
-  **'criterion': 'gini', 'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 3,'splitter': 'best'
+  * 'criterion': 'gini', 'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 3,'splitter': 'best'
 * After using these values we got a slight increase in the model accuracy of 3%.
 * The Final accuracy was 77%.
