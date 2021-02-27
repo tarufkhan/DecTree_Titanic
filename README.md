@@ -1,4 +1,4 @@
-## Using Decision Tree technique to predict the survial of passengers of the Titanic
+## Using Decision Tree technique to predict whether a passenger of Titanic, survived or not.
 
 ### What we did here & Results -
 * Import all the required libraries & modules.
