@@ -1,4 +1,6 @@
 ## Using Decision Tree technique to predict whether a passenger of Titanic, survived or not.
+* Your will also need to download and install Graphviz in order to create the Tree image and save it.
+
 
 ### What we did here & Results -
 * Import all the required libraries & modules.
