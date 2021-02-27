@@ -21,19 +21,19 @@
 * Splitting data into train and test parts then fitting the train data on the Decision Tree we got an accuracy of 74% on test data.
 * We did plot and saved the Decision Tree image that was formed. Here, it is -
 
-![img](/DT_Titanic.PNG)
+![img](/DT_Titanic.png)
 
 * The Confusion Matrix we got is -
 
 ![img3](/img/dt3.PNG)
 
 * Values of other Evaluation metrics are -
- 1. Accuracy - 0.7430167597765364
- 2. Precision - 0.803921568627451
- 3. Recall - 0.7592592592592593
- 4. F1 Score - 0.780952380952381
- 5. Specificity - 0.7183098591549296
- 6. AUC - 0.7331296154825567
+** Accuracy - 0.7430167597765364
+** Precision - 0.803921568627451
+** Recall - 0.7592592592592593
+** F1 Score - 0.780952380952381
+** Specificity - 0.7183098591549296
+** AUC - 0.7331296154825567
 * The ROC AUC Curve is -
 
 ![img4](/img/dt4.PNG)
