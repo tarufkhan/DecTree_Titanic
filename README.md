@@ -29,13 +29,7 @@
 
 ![img3](/img/dt3.PNG)
 
-* Values of other Evaluation metrics are -
-  * Accuracy - 0.7430167597765364
-  * Precision - 0.803921568627451
-  * Recall - 0.7592592592592593
-  * F1 Score - 0.780952380952381
-  * Specificity - 0.7183098591549296
-  * AUC - 0.7331296154825567
+* Values of other Evaluation metrics like precision, recall, f1-score are in good range of 0.66-0.80.
 * The ROC AUC Curve is -
 
 ![img4](/img/dt4.PNG)
@@ -44,6 +38,6 @@
 * The parameters we tried to tune are 
   * 'criterion', 'max_depth', 'min_samples_leaf', 'min_samples_split', 'splitter'.
 * On using the GridSearchCV for tuning, we got the best values of above mentioned parameters.
-  * 'criterion': 'gini', 'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 3,'splitter': 'best'
+  * 'criterion': 'gini', 'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 2,'splitter': 'best'
 * After using these values we got a slight increase in the model accuracy of 3%.
 * The Final accuracy was 77%.
