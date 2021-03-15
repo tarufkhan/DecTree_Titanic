@@ -39,5 +39,5 @@
   * 'criterion', 'max_depth', 'min_samples_leaf', 'min_samples_split', 'splitter'.
 * On using the GridSearchCV for tuning, we got the best values of above mentioned parameters.
   * 'criterion': 'gini', 'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 2,'splitter': 'best'
-* After using these values we got a slight increase in the model accuracy of 3%.
-* The Final accuracy was 77%.
+* After using these values we got a slight increase in the model accuracy of 2%.
+* The Final accuracy was 76%.
